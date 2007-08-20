@@ -35,6 +35,6 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %{_bindir}/viewres
 %{_datadir}/X11/app-defaults/Viewres
-%{_mandir}/man1/viewres.1x.bz2
+%{_mandir}/man1/viewres.*
 
 
