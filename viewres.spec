@@ -19,10 +19,7 @@ Athena Widget Set.
 %setup -q -n %{name}-%{version}
 
 %build
-autoreconf -ifs
-%configure2_5x	--x-includes=%{_includedir}\
-		--x-libraries=%{_libdir}
-
+%configure2_5x
 %make
 
 %install
