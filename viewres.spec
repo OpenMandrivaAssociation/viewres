@@ -1,6 +1,6 @@
 Name: viewres
-Version: 1.0.1
-Release: %mkrel 10
+Version: 1.0.2
+Release: %mkrel 1
 Summary:  graphical class browser for Xt
 Group: Development/X11
 Source: http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
@@ -33,4 +33,5 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %{_bindir}/viewres
 %{_datadir}/X11/app-defaults/Viewres
+%{_datadir}/X11/app-defaults/Viewres-color
 %{_mandir}/man1/viewres.*
