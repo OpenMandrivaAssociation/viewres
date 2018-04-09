@@ -1,6 +1,6 @@
 Name: viewres
-Version: 1.0.4
-Release: 11
+Version: 1.0.5
+Release: 1
 Summary:  graphical class browser for Xt
 Group: Development/X11
 Source0: http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
